@@ -51,20 +51,21 @@
   }
 
 }
+@media (max-width: 500px) {
+  ul.thumbs li.content {
+      height: 360px;
+  }
+}
+
+@media (min-width:500px) and (max-width: 768px) {
+  ul.thumbs li.content {
+      height: 300px;
+  }
+}
+
 
 .btn-group {
     margin-right: 0px !important;
 }
 
 
-
-
-    /*position: absolute;
-    top: 27px;
-    right: -14px;
-    display: inline-block;
-    border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
-    border-bottom: 14px solid transparent;
-    content: " ";*/

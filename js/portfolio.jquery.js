@@ -1,4 +1,5 @@
 // Utility
+var height = 500;
 if (typeof Object.create !== 'function') {
     Object.create = function(obj) {
         function F() {};
