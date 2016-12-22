@@ -54,9 +54,9 @@ ul.thumbs li a.thumbnail .description {
     width: 100%;
     box-sizing: inherit;
     opacity: 0;
-    transition: all 0.3s ease;
+    /*transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;*/
     color: #333333;
     background-color: rgba(255, 255, 255, 0.7);
     font-size: 18px;
@@ -64,6 +64,8 @@ ul.thumbs li a.thumbnail .description {
     line-height: 10px;
     box-sizing: inherit;
     text-align: center;
+    height: 50px;
+	opacity: 1;
 }
 
 ul.thumbs li a.thumbnail .active-arrow {
